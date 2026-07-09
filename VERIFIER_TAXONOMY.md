@@ -41,6 +41,9 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_s3_action` | C | 5 | PASS | S₃ order 6; vacua fixed; 2 weight-orbits of 3 |
 | `verify_recursive_closure` | C | 4 | PASS | 7-fold; void cap depth 3; stabilizes |
 | `verify_recursive_light_cone_closure` | C | 5 | PASS | depth 3; base 8; boundary=∂; apex void |
+| `verify_unified_energy_transport` | C | 5 | PASS | κ edge/VOA/30κ; capacity 16 |
+| `verify_tarpit_mass_formula` | C | 4 | PASS | m=N_bonds·κ; 343 basis FLAGGED X |
+| `verify_coupling_transport` | C | 5 | PASS | αₛ=5κ/π, G_N=κ³; αₑₘ 137 FLAGGED X |
 
 ## Calibration Suite (E — requires measured anchors)
 
