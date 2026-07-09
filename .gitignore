@@ -1,0 +1,35 @@
+# CMPLX-Standards — hosting .gitignore
+# Standalone standards/grading system component of CMPLX-Manny.
+
+# Runtime / precached databases (referenced by path, not versioned)
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Python caches / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.cursor/
+
+# Secrets (NEVER tracked)
+.env
+*.env
+*.key
+*.pem
+*secret*
+credentials*
+
+# Transient / staging
+_tmp/
+_reorg_staging/
+_LOCAL_DEMOTED/
+.hermes/
