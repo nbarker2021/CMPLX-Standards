@@ -33,6 +33,8 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_mckay_matrix_bootstrap` | T | 4 | PASS | 196883 = 47×59×71 |
 | `verify_spectre_correction` | C | 4 | PASS | spectre edge count 14, chiral 2, Z₄ periodic, chiral integral |
 | `verify_chain_complex` | C | 4 | PASS | C⁰=Σ(8), C¹=Δ(2), C²=Σ∖Δ(6); ∂²=0, anneal bound ≤3 |
+| `verify_z4_chiral` | C | 4 | PASS | static Z₄ exact (2 fixed, 6 period-3); temporal Z₄ refuted |
+| `verify_chiral_doublet` | C | 6 | PASS | Δ={(0,1,0),(1,1,0)}; side, bit¬L, max wrap 3 |
 
 ## Calibration Suite (E — requires measured anchors)
 
