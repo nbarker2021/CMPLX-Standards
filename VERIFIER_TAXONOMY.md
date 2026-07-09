@@ -35,6 +35,8 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_chain_complex` | C | 4 | PASS | C⁰=Σ(8), C¹=Δ(2), C²=Σ∖Δ(6); ∂²=0, anneal bound ≤3 |
 | `verify_z4_chiral` | C | 4 | PASS | static Z₄ exact (2 fixed, 6 period-3); temporal Z₄ refuted |
 | `verify_chiral_doublet` | C | 6 | PASS | Δ={(0,1,0),(1,1,0)}; side, bit¬L, max wrap 3 |
+| `verify_triality_operator` | C | 6 | PASS | T=id|_Diag, S₃ gen, T1⊕T2, M₃ n=3, 7-fold |
+| `verify_niemeier_paths` | C | 3 | PASS | 8 F₄ paths → 8 Niemeier terminals |
 
 ## Calibration Suite (E — requires measured anchors)
 
