@@ -38,6 +38,9 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_triality_operator` | C | 6 | PASS | T=id|_Diag, S₃ gen, T1⊕T2, M₃ n=3, 7-fold |
 | `verify_niemeier_paths` | C | 3 | PASS | 8 F₄ paths → 8 Niemeier terminals |
 | `verify_three_projections` | C | 7 | PASS | κ=ln(φ)/16; 2 vac@0, 6@5; chiral doublet unified |
+| `verify_s3_action` | C | 5 | PASS | S₃ order 6; vacua fixed; 2 weight-orbits of 3 |
+| `verify_recursive_closure` | C | 4 | PASS | 7-fold; void cap depth 3; stabilizes |
+| `verify_recursive_light_cone_closure` | C | 5 | PASS | depth 3; base 8; boundary=∂; apex void |
 
 ## Calibration Suite (E — requires measured anchors)
 
