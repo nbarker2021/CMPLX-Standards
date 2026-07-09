@@ -20,7 +20,7 @@ CQE-PAPER-000..103. These are the formal objects every claim resolves against.
 
 ## Monster / Bijection Decomposition (196883 = 47×59×71)
 Total resolution capacity of the Hilbert Light-Cone, split by the three bijections:
-- **B₁ (Knights, 47)**: discrete path space (OEIS A033996). Forward resolution — (3,5) conjugation on genus-2 theta. HilbertLightCone⁺(E).
+- **B₁ (Knights, 47)**: discrete path space. Forward resolution — (3,5) conjugation on genus-2 theta. HilbertLightCone⁺(E). *(NOTE: prior text cited "OEIS A033996" here — FABRICATION; see Calibration Constants.)*
 - **B₂ (Jacobian, 59)**: continuous moduli (genus-2). Antipodal pairing — (5,7) adjugation. LightCone⁺(E) → LightCone⁻(E).
 - **B₃ (Braiding, 71)**: topological (KZ equations). Closure — KZ monodromy on moduli. LightCone⁻(E) → E.
 
@@ -29,6 +29,11 @@ AntimatterMirror(E) = C\E is the exact counter-expression; I(E)+I(C\E)=I(C).
 ## VOA & Spectre
 - **VOA partition**: Z(q) = 2q⁰ + 6q⁵ (2 vacua weight 0, 6 excited weight 5).
 - **Spectre**: ∂ geometric realization; 14 edges, 2 chiralities, 7-fold substitution, depth bound 3, aperiodic (temporal Z₄ refuted).
+
+## Boundary Chain Complex (CQE-PAPER-002 recraft)
+- **Complex**: C⁰=Σ (8 states, 0-chains), C¹=Δ (2 chiral states, 1-chains), C²=Σ∖Δ (6 states, 2-chains).
+- **Boundary map**: ∂: C⁰→C¹, ∂(s)=C(s)·¬R(s)∈{0,1}, surjective onto Δ, ∂²=0.
+- **Anneal bound**: d(σ,vacuum) ≤ 3 for all σ∈Σ (S₃-transposition graph on 8 states has diameter 3). *(NOTE: CQE-PAPER-002 §3.3 per-state anneal table is internally inconsistent and FLAGGED X; honest BFS gives all non-vacua at d=3. See Paper 002 §2.14.)*
 
 ## Calibration Constants (exact, no external data)
 - Monster scalar: 196883 = 47×59×71 (`verify_mckay_matrix_bootstrap`, 4/4).

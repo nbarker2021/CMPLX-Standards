@@ -31,7 +31,8 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_z4_period_template` | T | 3 | PASS | static Z₄ exact, temporal refuted |
 | `verify_gluon_invariance` | C | 2 | PASS | 64/64 share C under LR |
 | `verify_mckay_matrix_bootstrap` | T | 4 | PASS | 196883 = 47×59×71 |
-| `verify_spectre_correction` | C | — | PASS | spectre edge count 14, chiral 2 |
+| `verify_spectre_correction` | C | 4 | PASS | spectre edge count 14, chiral 2, Z₄ periodic, chiral integral |
+| `verify_chain_complex` | C | 4 | PASS | C⁰=Σ(8), C¹=Δ(2), C²=Σ∖Δ(6); ∂²=0, anneal bound ≤3 |
 
 ## Calibration Suite (E — requires measured anchors)
 
