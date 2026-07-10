@@ -42,13 +42,14 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_recursive_closure` | C | 4 | PASS | 7-fold; void cap depth 3; stabilizes |
 | `verify_recursive_light_cone_closure` | C | 5 | PASS | depth 3; base 8; boundary=∂; apex void |
 | `verify_unified_energy_transport` | C | 5 | PASS | κ edge/VOA/30κ; capacity 16 |
-| `verify_tarpit_mass_formula` | C | 4 | PASS | m=N_bonds·κ; 343 basis FLAGGED X |
-| `verify_coupling_transport` | C | 5 | PASS | αₛ=5κ/π, G_N=κ³; αₑₘ 137 FLAGGED X |
+| `verify_tarpit_mass_formula` | C | 4 | PASS | m=N_bonds·κ; 343=7³ (SU(3) closure, verified) |
+| `verify_coupling_transport` | C | 5 | PASS | αₛ=5κ/π, G_N=κ³; αₑₘ⁻¹=137.036 = PDG calibration (not κ-derived) |
 | `verify_shear_pinch_moduli` | C | 4 | PASS | G_shear=2κ, G_pinch=4κ; 4 antipodal dyads |
-| `verify_tarpit_register` | C | 5 | PASS | 8 states, 7-seq clock; 343/400 FLAGGED X |
+| `verify_tarpit_register` | C | 6 | PASS | 8 states, 7-seq clock; 343/400 recursive closure VERIFIED |
 | `verify_knight_register_calibration` | C | 6 | PASS | honest edges {0,16,48,..}; A033996 FLAGGED X |
 | `verify_shared_center_c` | C | 8 | PASS | C invariant under LR swap (all 8 states) |
 | `verify_observer_frame_selection` | C | 6 | PASS | 4 frames; gluon C; static Z4; temporal Z4 refuted |
+| `verify_recursive_sevenfold_closure` | C | 3 | PASS | non-dedup tree 1,7,49,343; total 400 (343=7³ SU(3) closure) |
 
 ## Calibration Suite (E — requires measured anchors)
 
