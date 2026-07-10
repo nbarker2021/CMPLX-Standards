@@ -47,6 +47,8 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_shear_pinch_moduli` | C | 4 | PASS | G_shear=2κ, G_pinch=4κ; 4 antipodal dyads |
 | `verify_tarpit_register` | C | 5 | PASS | 8 states, 7-seq clock; 343/400 FLAGGED X |
 | `verify_knight_register_calibration` | C | 6 | PASS | honest edges {0,16,48,..}; A033996 FLAGGED X |
+| `verify_shared_center_c` | C | 8 | PASS | C invariant under LR swap (all 8 states) |
+| `verify_observer_frame_selection` | C | 6 | PASS | 4 frames; gluon C; static Z4; temporal Z4 refuted |
 
 ## Calibration Suite (E — requires measured anchors)
 
