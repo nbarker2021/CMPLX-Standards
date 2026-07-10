@@ -50,6 +50,7 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_shared_center_c` | C | 8 | PASS | C invariant under LR swap (all 8 states) |
 | `verify_observer_frame_selection` | C | 6 | PASS | 4 frames; gluon C; static Z4; temporal Z4 refuted |
 | `verify_recursive_sevenfold_closure` | C | 3 | PASS | non-dedup tree 1,7,49,343; total 400 (343=7³ SU(3) closure) |
+| `verify_grand_ribbon_preconditions` | C | 7 | PASS | 6-precond chain DAG; 1 strict order; CQE '5 orders' = relaxed prefixes |
 
 ## Calibration Suite (E — requires measured anchors)
 
