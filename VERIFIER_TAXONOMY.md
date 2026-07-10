@@ -4,6 +4,10 @@ Canonical registry of machine-checkable verifiers referenced by the 240-paper
 form and the CQECMPLX Formal-Suite. Each entry carries its C2 taxonomy tag
 (T = theorem, E = empirical/calibration, C = computational check, G = gap/backfill)
 and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
+Recrafted from CQECMPLX-Production P00–P31 canonical papers (2026-07-09): created
+root 000 (chart↔J₃(𝕆) T3 + SU(3) T4–T7, run.py SMOKE PASS); P00–P06 verifiers PASS;
+P07–P31 carried as transport-contract / C-form Gluon sections with honest irreducible-gap
+notes (EFE, Higgs derivation, full moonshine, Γ72 landing). A033996 knight-CA is FABRICATED.
 
 ## C2 Taxonomy Tags
 - **T** — theorem / mathematical proof (exact, no external anchor)
