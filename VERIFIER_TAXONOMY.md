@@ -52,6 +52,7 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_recursive_sevenfold_closure` | C | 3 | PASS | non-dedup tree 1,7,49,343; total 400 (343=7³ SU(3) closure) |
 | `verify_grand_ribbon_preconditions` | C | 7 | PASS | 6-precond chain DAG; 1 strict order; CQE '5 orders' = relaxed prefixes |
 | `verify_lcr_sector_decomposition` | C | 8 | PASS | 8=2 vac+3 QCD+3 obs; (1,1,0) QCD/chiral overlap; SU(3) 7³=343 |
+| `verify_spectre_tiling` | C | 7 | PASS | center bar=C; chiral 1/4; 7-fold; 343; 10-tile; static Z4 |
 
 ## Calibration Suite (E — requires measured anchors)
 
