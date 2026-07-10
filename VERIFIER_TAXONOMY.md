@@ -44,6 +44,9 @@ and the paper(s) it backs. Recrafted from CQECMPLX-Formal-Suite (2026-07-09).
 | `verify_unified_energy_transport` | C | 5 | PASS | κ edge/VOA/30κ; capacity 16 |
 | `verify_tarpit_mass_formula` | C | 4 | PASS | m=N_bonds·κ; 343 basis FLAGGED X |
 | `verify_coupling_transport` | C | 5 | PASS | αₛ=5κ/π, G_N=κ³; αₑₘ 137 FLAGGED X |
+| `verify_shear_pinch_moduli` | C | 4 | PASS | G_shear=2κ, G_pinch=4κ; 4 antipodal dyads |
+| `verify_tarpit_register` | C | 5 | PASS | 8 states, 7-seq clock; 343/400 FLAGGED X |
+| `verify_knight_register_calibration` | C | 6 | PASS | honest edges {0,16,48,..}; A033996 FLAGGED X |
 
 ## Calibration Suite (E — requires measured anchors)
 
