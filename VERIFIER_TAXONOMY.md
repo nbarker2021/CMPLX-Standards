@@ -8,6 +8,10 @@ Recrafted from CQECMPLX-Production P00–P31 canonical papers (2026-07-09): crea
 root 000 (chart↔J₃(𝕆) T3 + SU(3) T4–T7, run.py SMOKE PASS); P00–P06 verifiers PASS;
 P07–P31 carried as transport-contract / C-form Gluon sections with honest irreducible-gap
 notes (EFE, Higgs derivation, full moonshine, Γ72 landing). A033996 knight-CA is FABRICATED.
+Recrafted from CQECMPLX-ProofValidatedSuite EXPOSE-PAPERS 1–31 (2026-07-09): Gluon
+invariants C0..C9/CT10 carried into roots. EXPOSE-12 "64/256 silent-boundary ECAs" is
+INACCURATE (true = 16/256); EXPOSE-7 "32 vert/12544 edges" and EXPOSE-16 "skip frac 0.849"
+are stated-but-not-re-verified. EFE/Higgs/moonshine/Γ72 = registered irreducible gaps.
 
 ## C2 Taxonomy Tags
 - **T** — theorem / mathematical proof (exact, no external anchor)
